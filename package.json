@@ -14,5 +14,17 @@
   "license": "BSD-3-Clause",
   "dependencies": {
     "es6-transpiler": "^0.7.17"
-  }
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "karma": ">=0.12.24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ouhouhsami/karma-es6-transpiler-preprocessor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ouhouhsami/karma-es6-transpiler-preprocessor/issues"
+  },
+  "homepage": "https://github.com/ouhouhsami/karma-es6-transpiler-preprocessor"
 }
