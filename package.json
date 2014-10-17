@@ -1,0 +1,18 @@
+{
+  "name": "karma-es6-transpiler-preprocessor",
+  "version": "0.0.1",
+  "description": "es6-transpiler preprocessor for Karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor"
+  ],
+  "author": "Samuel Goldszmidt <samuel.goldszmidt@gmail.com>",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "es6-transpiler": "^0.7.17"
+  }
+}
