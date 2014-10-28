@@ -16,9 +16,7 @@ var createES6TranspilerPreprocessor = function(args, config, logger, helper) {
     file.path = transformPath(file.originalPath);
     options.filename = file.originalPath;
 
-    var result = es6tr.run({
-      filename: options.filename
-    });
+    var result = es6tr.run(options);
     var transpiledContent = result.src;
 
     result.errors.forEach(function(err) {
